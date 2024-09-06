@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 1200px;
+    margin: 0% auto;
+    border: 1px solid black;
+    height: auto;
+
+}
+.des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    height: 100px;
+    color: green;
+    
+    
+}
+.logo{
+    background-image: url(../images/biman_red_logo\ last.png);
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 70px;
+    display: flex;
+    margin-left: 23px;
+}
+.logo h3{ 
+text-align: center;
+margin-left: 55px ;
+width: 0px; 
+}
+.search button{
+ margin-right: 35px;
+}
+
+.navbar{
+    height: 40px;
+    background-color:green;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.navbar div {
+    width: 181px;
+    padding: 10px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+a:hover{
+    padding: 10px;
+    background-color: red;
+    
+}
+a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+.leftmenu{
+    width: 20%;
+    background-color: white;
+    border: 2px solid;
+    color: green;
+    float: left;
+    line-height: 50px;
+    padding-bottom: 0px;
+    height: auto;
+    padding: auto;
+}
+.leftmenu div a{
+    color: green;
+    text-align: center;
+    
+}
+.content{
+    padding: 15px;
+    height: auto;   
+}
+.content p ul li{
+    margin-left: 28%;
+}
+.content img{
+    margin-left: 15%;
+}
+.content p{
+    margin-left: 26%;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 452px;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 452px;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 452px;
+}
+
+
+.footer{
+    margin-top: auto;
+    border-top: 0px;
+    background-color: green;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    
+}
